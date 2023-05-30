@@ -7,7 +7,7 @@ export const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <p className="p1-title">Create & Inspire.</p>
+        <p className="pl-title">Create & Inspire</p>
         <p className="pl-desc">
         My portfolio showcases a diverse range of projects that highlight
         my expertise in HTML, CSS, and JavaScript. Using the latest front-end frameworks and 
