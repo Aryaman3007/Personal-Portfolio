@@ -86,3 +86,40 @@ button{
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+    .c{
+        height: 110vh;
+    }
+
+    .c-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c-title{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .c-bg{
+        height: 40vh;
+        width: 15px;
+        margin-top: 30px;
+    }
+
+    .c-info-item{
+        width: 120%;
+        margin: 30px 0px;
+    }
+
+    .c-desc{
+        margin-top: 40px;
+        width: 110%;
+    }
+
+    input{
+        width: 100%;
+        height: 40px;
+    }
+}
