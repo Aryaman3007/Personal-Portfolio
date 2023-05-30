@@ -1,5 +1,5 @@
 .about{
-    height: 100vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
 }
@@ -22,8 +22,8 @@
 
 .about-card.bg{
     position: absolute;
-    left:50px;
-    top:50px;
+    left:70px;
+    top:20px;
     background-color: #cb989877;
 }
 
