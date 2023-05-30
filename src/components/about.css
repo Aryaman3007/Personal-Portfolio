@@ -1,0 +1,101 @@
+.about{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.about-right{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-card.bg{
+    position: absolute;
+    left:50px;
+    top:50px;
+    background-color: #cb989877;
+}
+
+.about-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.img-card{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.award-img{
+    height: 140px;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.about-title{    
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.about-desc{
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+.awards{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.img-awards-text{
+    width: 70%;
+}
+
+.awards-title{
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .about{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .about-left{
+        width: 100%;
+    }
+
+    .about-card{
+        height: 30vh;
+    }
+
+    .about-card.bg{
+        background-color: none;
+    }
+
+    .about-right{
+        padding: 20px;
+
+    }
+}
