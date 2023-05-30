@@ -103,3 +103,44 @@ a {
     top: 0;
     bottom: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .intro{
+        height: 85vh;
+        width: 100%;
+    }
+
+    a{
+        font-size: 13px;
+    }
+
+    .icon{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+
+    .intro-desc{
+        font-size: 13px;
+    }
+
+    .intro-start{
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .intro-name{
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .intro-title-item{
+        font-size: 15px;
+    }
+
+    .intro-right{
+        display: none;
+    }
+}
