@@ -25,7 +25,7 @@ export default function Navbar(props){
                 </NavLink>
             </ul>
             <div className={`flex justify-center items-center rounded-full p-[4px] cursor-pointer ${props.darkmode?'bg-[#181818]':'bg-[#ecf3ff]'}`}>
-              <p onClick={() => {window.open('https://drive.google.com/file/d/1XxNSJIe4Jr0IWjqB6916uRgKIt-__9cU/view?usp=sharing', "_blank");}} className={`rounded-full px-[10px] py-[4px] text-center ${props.darkmode?'hover:bg-[#232323]':'hover:bg-[#fefffe]'}`}>Resume</p>
+              <p onClick={() => {window.open('https://drive.google.com/file/d/19Qx7JXyVqVUuU8xZSVRFYBgEIP1obs6P/view?usp=drivesdk', "_blank");}} className={`rounded-full px-[10px] py-[4px] text-center ${props.darkmode?'hover:bg-[#232323]':'hover:bg-[#fefffe]'}`}>Resume</p>
             </div>
         </>
     );
