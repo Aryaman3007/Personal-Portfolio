@@ -7,7 +7,7 @@ export default function SleepModeSwitch(){
     const noSleep = new NoSleep();
     const driverFunction = () => {
         setIsEnabled(!isEnabled)
-        if(isEnabled == true){
+        if(isEnabled === true){
             noSleep.enable();
         }
         else{
